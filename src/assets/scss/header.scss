@@ -1,0 +1,17 @@
+#header {
+    display: flex;
+
+    nav {
+        width: 100%;
+
+        > ul {
+            display: flex;
+
+            a {
+                &.route-active {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
